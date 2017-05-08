@@ -1,0 +1,25 @@
+p{
+	color: black;
+}
+
+section{
+ margin-left: 30px;
+}
+
+input{
+	margin-bottom: 10px;
+}
+
+.panel-default>.panel-heading {
+    background-color: #655ec9;
+}
+
+#submit{
+	 background-color: #655ec9;
+}
+
+
+.panel {
+	margin-left: 50px;
+	margin-right: 50px;
+}

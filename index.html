@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>NYT Search</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	 <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+
+
+<div class="panel panel-default" id='search'> <!--This div Combines 2 sections (a) Title (b) Table and (C) Add Train-->
+
+
+<!--(a) title Starts-->
+<div class="panel panel-default" id='title'>
+    <div id='title'class="panel-heading">
+    <h1 class="panel-sub-title">Anytime is Train Time</h1>
+    <h3 class="panel-sub-title">Choo Choo. Chee Chee.</h3>
+    </div>
+    <div class="panel-body">      
+</div> <!--(a) title Ends-->
+
+
+
+<!--(b) table Starts-->
+
+<div class="panel-heading">
+<h3 class="panel-title">Current Train Schedule</h3>
+</div>
+<div class="panel-body">
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Train Name</th>
+      <th>Destination</th>
+      <th>Frequency(min)</th>
+      <th>Next Arrival</th>
+      <th>Minutes Away</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>Rajdhani</td>
+      <td>Ahmedabad</td>
+      <td>60</td>
+      <td>05:30 PM</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>Karnavati</td>
+      <td>Surat</td>
+      <td>120</td>
+      <td>05:30 AM</td>
+      <td>20</td>
+    </tr>
+    </tbody>
+</table>
+
+</div> <!--(b) table ends-->
+
+
+
+<!--(c) Add Train Starts-->
+
+    <div class="panel-heading">
+    <h3 class="panel-title">Add Train</h3>
+    </div>
+    <div class="panel-body">
+    	<p>Train Name</p>
+    	<input type="text" name="trainName" id="trainName">
+    	<p>Destination</p>
+    	<input type="text" name="destination" id="destination">
+    	<p>First Train Time (HH:mm - military time)</p>
+    	<input type="text" name="firstTrainTime" id="firstTrainTime">
+    	<p>Frequency (min)</p>
+    	<input type="text" name="frequency" id="frequency">
+    	<div>
+    	<button id='submit' type="button">Submit</button>
+    	</div>
+    </div>
+
+    </div> <!--(c) Add Train ends-->
+
+
+</div> <!--Div ends which Combines 3 sections (a) Title (b) Table and (C) Add Train-->
+
+
+
+</body>
+</html>
